@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "dependencies": {
+    "domready": "^1.0.7",
+    "normalize.css": "^3.0.2",
+    "traceur-loader": "^0.6.1",
+    "rump-scripts": "^0.2.0",
+    "rump-static": "^0.2.0",
+    "rump-styles": "^0.2.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "rump-scripts-test": "^0.2.4",
+    "rump-server": "^0.2.2"
+  },
+  "scripts": {
+    "start": "npm run server",
+    "test": "gulp rump:test",
+    "test:watch": "gulp rump:test:watch",
+    "build": "gulp rump:build",
+    "build:prod": "NODE_ENV=production npm run build",
+    "server": "gulp rump:server",
+    "server:prod": "NODE_ENV=production npm run server",
+    "info": "gulp rump:info",
+    "info:prod": "NODE_ENV=production npm run info"
+  }
+}

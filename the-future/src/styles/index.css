@@ -1,0 +1,13 @@
+@import 'normalize.css/normalize.css';
+
+:root {
+  --padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: var(--padding);
+}
