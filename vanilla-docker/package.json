@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "dependencies": {
+    "domready": "^1.0.7",
+    "normalize.css": "^3.0.2"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1"
+  }
+}

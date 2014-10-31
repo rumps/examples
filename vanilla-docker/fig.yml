@@ -1,0 +1,8 @@
+web:
+  build: .
+  command: gulp rump:server
+  volumes:
+    - ./src:/assets/src
+    - ./dist:/assets/dist
+  ports:
+    - "3000:3000"
