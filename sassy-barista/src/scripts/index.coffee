@@ -1,7 +1,7 @@
 'use strict'
 
 domready = require 'domready'
-operations = require 'operations'
+operations = require './operations'
 
 domready ->
   operand1El = document.getElementById('operand-1')

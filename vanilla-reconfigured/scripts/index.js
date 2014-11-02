@@ -1,7 +1,7 @@
 'use strict';
 
-var operations = require('operations');
 var domready = require('domready');
+var operations = require('./operations');
 
 domready(function() {
   var operand1El = document.getElementById('operand-1');

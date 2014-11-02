@@ -1,5 +1,5 @@
 import domready from 'domready';
-import operations from 'operations';
+import operations from './operations';
 
 domready(() => {
   const operand1El = document.getElementById('operand-1');
