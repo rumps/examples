@@ -1,10 +1,11 @@
 {
-  "node": true,
+  "browser": true,
   "camelcase": true,
   "curly": true,
   "esnext": true,
   "eqeqeq": true,
   "eqnull": true,
-  "unused": true,
-  "mocha": true
+  "mocha": true,
+  "node": true,
+  "unused": true
 }
