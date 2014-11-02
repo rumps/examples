@@ -8,7 +8,7 @@ WORKDIR /assets
 # build-related packages are not needlessly downloaded
 ADD build.json /assets/package.json
 RUN npm install
-ADD package.json /assets/package.json
+ADD client.json /assets/package.json
 RUN npm install
 ADD bower.json /assets/bower.json
 RUN bower install --config.interactive=false --allow-root
@@ -16,6 +16,6 @@ RUN bower install --config.interactive=false --allow-root
 ADD . /assets
 
 # Merge JSON files together for Rump's autoload
-RUN cat /assets/build.json /assets/package.json | json --deep-merge > /assets/package.json
+RUN cat /assets/build.json /assets/client.json | json --deep-merge > /assets/package.json
 
 CMD gulp rump:server
