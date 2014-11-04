@@ -1,12 +1,12 @@
 {
   "private": true,
   "dependencies": {
-    "rump-scripts": "^0.2.6",
-    "rump-static": "^0.2.0",
-    "rump-styles": "^0.2.1"
+    "rump-scripts": "^0.3.0",
+    "rump-static": "^0.3.0",
+    "rump-styles": "^0.3.0"
   },
   "devDependencies": {
-    "rump-scripts-test": "^0.2.4",
-    "rump-server": "^0.2.2"
+    "rump-scripts-test": "^0.3.1",
+    "rump-server": "^0.3.0"
   }
 }

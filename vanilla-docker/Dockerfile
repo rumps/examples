@@ -18,4 +18,4 @@ ADD . /assets
 # Merge JSON files together for Rump's autoload
 RUN cat /assets/build.json /assets/client.json | json --deep-merge > /assets/package.json
 
-CMD gulp rump:server
+CMD gulp server

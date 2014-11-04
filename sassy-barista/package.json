@@ -5,24 +5,25 @@
     "normalize-compass": "^3.0.1",
     "coffee-loader": "^0.7.2",
     "coffee-script": "^1.8.0",
-    "rump-sass": "^0.2.1",
-    "rump-scripts": "^0.2.0",
-    "rump-static": "^0.2.0"
+    "rump": "^0.3.0",
+    "rump-sass": "^0.3.0",
+    "rump-scripts": "^0.3.0",
+    "rump-static": "^0.3.0"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "rump-scripts-test": "^0.2.4",
-    "rump-server": "^0.2.2"
+    "rump-scripts-test": "^0.3.1",
+    "rump-server": "^0.3.0"
   },
   "scripts": {
     "start": "npm run server",
-    "test": "gulp rump:test",
-    "test:watch": "gulp rump:test:watch",
-    "build": "gulp rump:build",
-    "build:prod": "NODE_ENV=production npm run build",
-    "server": "gulp rump:server",
-    "server:prod": "NODE_ENV=production npm run server",
-    "info": "gulp rump:info",
-    "info:prod": "NODE_ENV=production npm run info"
+    "test": "gulp test",
+    "test:watch": "gulp test:watch",
+    "build": "gulp build",
+    "build:prod": "npm run build:prod",
+    "server": "gulp server",
+    "server:prod": "gulp server:prod",
+    "info": "gulp info",
+    "info:prod": "gulp info:prod"
   }
 }
