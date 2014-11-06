@@ -4,8 +4,8 @@ RUN npm install -g bower gulp json
 RUN mkdir /assets
 WORKDIR /assets
 
-# build.json and package.json is separated so
-# build-related packages are not needlessly downloaded
+# Instead of package.json, build.json and client.json is
+# separated so build-related packages are not needlessly downloaded
 ADD build.json /assets/package.json
 RUN npm install
 ADD client.json /assets/package.json
@@ -15,7 +15,7 @@ RUN bower install --config.interactive=false --allow-root
 
 ADD . /assets
 
-# Merge JSON files together for Rump's autoload
+# Merge JSON files together to create package.json
 RUN cat /assets/build.json /assets/client.json | json --deep-merge > /assets/package.json
 
 CMD gulp server
