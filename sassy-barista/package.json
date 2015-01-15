@@ -12,7 +12,6 @@
     "rump-static": "^0.5.0"
   },
   "devDependencies": {
-    "expect.js": "^0.3.1",
     "rump-scripts-test": "^0.5.0",
     "rump-server": "^0.5.0"
   },

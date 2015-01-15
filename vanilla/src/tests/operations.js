@@ -1,17 +1,17 @@
 'use strict';
 
+var assert = require('assert');
 var operations = require('operations');
-var expect = require('expect.js');
 
 describe('operations', function() {
   it('has four properties', function() {
-    expect(Object.keys(operations).length).to.be(4);
+    assert(Object.keys(operations).length === 4);
   });
 
   it('has four correctly named properties', function() {
-    expect(operations.add).to.be.a('function');
-    expect(operations.sub).to.be.a('function');
-    expect(operations.mult).to.be.a('function');
-    expect(operations.div).to.be.a('function');
+    assert(typeof operations.add === 'function');
+    assert(typeof operations.sub === 'function');
+    assert(typeof operations.mult === 'function');
+    assert(typeof operations.div === 'function');
   });
 });

@@ -1,12 +1,12 @@
 'use strict';
 
+var assert = require('assert');
 var add = require('operations/add');
-var expect = require('expect.js');
 
 describe('add operation', function() {
   it('can add', function() {
-    expect(add(1, 1)).to.be(2);
-    expect(add(2, 2)).to.be(4);
-    expect(add(3, 5)).to.be(8);
+    assert(add(1, 1) === 2);
+    assert(add(2, 2) === 4);
+    assert(add(3, 5) === 8);
   });
 });

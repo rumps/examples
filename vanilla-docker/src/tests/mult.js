@@ -1,12 +1,12 @@
 'use strict';
 
+var assert = require('assert');
 var mult = require('operations/mult');
-var expect = require('expect.js');
 
 describe('mult operation', function() {
   it('can mult', function() {
-    expect(mult(1, 1)).to.be(1);
-    expect(mult(2, 2)).to.be(4);
-    expect(mult(3, 5)).to.be(15);
+    assert(mult(1, 1) === 1);
+    assert(mult(2, 2) === 4);
+    assert(mult(3, 5) === 15);
   });
 });

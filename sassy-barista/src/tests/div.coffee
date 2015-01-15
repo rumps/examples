@@ -1,10 +1,10 @@
 'use strict'
 
+assert = require 'assert'
 div = require 'operations/div'
-expect = require 'expect.js'
 
 describe 'div operation', ->
   it 'can div', ->
-    expect(div(1, 1)).to.be(1)
-    expect(div(2, 2)).to.be(1)
-    expect(div(3, 5)).to.be(0.6)
+    assert(div(1, 1) === 1)
+    assert(div(2, 2) === 1)
+    assert(div(3, 5) === 0.6)
