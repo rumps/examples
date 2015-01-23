@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-var add = require('operations/add');
+var add = require('./add');
 
 describe('add operation', function() {
   it('can add', function() {

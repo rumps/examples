@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-var sub = require('operations/sub');
+var sub = require('./sub');
 
 describe('sub operation', function() {
   it('can sub', function() {

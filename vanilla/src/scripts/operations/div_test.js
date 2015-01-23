@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-var div = require('operations/div');
+var div = require('./div');
 
 describe('div operation', function() {
   it('can div', function() {

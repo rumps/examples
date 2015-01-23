@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-var operations = require('operations');
+var operations = require('.');
 
 describe('operations', function() {
   it('has four properties', function() {

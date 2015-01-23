@@ -4,14 +4,14 @@
     "domready": "^1.0.7",
     "normalize.css": "^3.0.2",
     "gulp": "^3.8.8",
-    "rump": "^0.5.0",
-    "rump-scripts": "^0.5.0",
-    "rump-static": "^0.5.0",
-    "rump-styles": "^0.5.0"
+    "rump": "^0.6.0",
+    "rump-scripts": "^0.6.0",
+    "rump-static": "^0.6.0",
+    "rump-styles": "^0.6.0"
   },
   "devDependencies": {
-    "rump-scripts-test": "^0.5.0",
-    "rump-server": "^0.5.0"
+    "rump-scripts-test": "^0.6.0",
+    "rump-server": "^0.6.0"
   },
   "scripts": {
     "start": "npm run server",

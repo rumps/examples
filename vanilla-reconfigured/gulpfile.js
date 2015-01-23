@@ -1,6 +1,6 @@
 'use strict';
 
-require('rump').autoload().setTaskPrefix('rump').addGulpTasks().configure({
+require('rump').autoload().addGulpTasks({prefix: 'rump'}).configure({
   globs: {
     build: {
       tests: '**/*_spec.js'

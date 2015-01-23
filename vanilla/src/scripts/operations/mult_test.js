@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-var mult = require('operations/mult');
+var mult = require('./mult');
 
 describe('mult operation', function() {
   it('can mult', function() {
