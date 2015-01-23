@@ -1,5 +1,5 @@
 import assert from 'assert';
-import sub from 'operations/sub';
+import {sub} from '.';
 
 describe('sub operation', () => {
   it('can sub', () => {

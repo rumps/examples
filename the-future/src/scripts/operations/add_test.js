@@ -1,5 +1,5 @@
 import assert from 'assert';
-import add from 'operations/add';
+import {add} from '.';
 
 describe('add operation', () => {
   it('can add', () => {

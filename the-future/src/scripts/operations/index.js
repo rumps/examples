@@ -1,6 +1,4 @@
-import add from './add';
-import sub from './sub';
-import mult from './mult';
-import div from './div';
-
-export default {add, sub, mult, div};
+export const add = (a, b) => a + b;
+export const sub = (a, b) => a - b;
+export const mult = (a, b) => a * b;
+export const div = (a, b) => a / b;

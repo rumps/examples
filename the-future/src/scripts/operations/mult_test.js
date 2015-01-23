@@ -1,5 +1,5 @@
 import assert from 'assert';
-import mult from 'operations/mult';
+import {mult} from '.';
 
 describe('mult operation', () => {
   it('can mult', () => {

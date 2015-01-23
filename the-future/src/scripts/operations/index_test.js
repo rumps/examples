@@ -1,5 +1,5 @@
 import assert from 'assert';
-import operations from 'operations';
+import * as operations from '.';
 
 describe('operations', () => {
   it('has four properties', () => {

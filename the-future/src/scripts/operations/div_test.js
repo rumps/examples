@@ -1,5 +1,5 @@
 import assert from 'assert';
-import div from 'operations/div';
+import {div} from '.';
 
 describe('div operation', () => {
   it('can div', () => {
