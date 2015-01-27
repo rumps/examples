@@ -20,7 +20,7 @@
     "test": "gulp test",
     "test:watch": "gulp test:watch",
     "build": "gulp build",
-    "build:prod": "npm run build:prod",
+    "build:prod": "gulp build:prod",
     "server": "gulp server",
     "server:prod": "gulp server:prod",
     "info": "gulp info",
