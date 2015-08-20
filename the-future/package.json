@@ -1,18 +1,23 @@
 {
   "private": true,
   "dependencies": {
-    "domready": "^1.0.7",
-    "normalize.css": "^3.0.2",
-    "6to5-loader": "^2.0.0",
-    "gulp": "^3.8.8",
-    "rump": "^0.6.0",
-    "rump-scripts": "^0.6.0",
-    "rump-static": "^0.6.0",
-    "rump-styles": "^0.6.0"
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "babel-runtime": "^5.8.20",
+    "domready": "^1.0.8",
+    "gulp": "^3.9.0",
+    "normalize.css": "^3.0.3",
+    "rump": "^0.7.0",
+    "rump-scripts": "^0.7.0",
+    "rump-server": "^0.7.0",
+    "rump-static": "^0.7.0",
+    "rump-styles": "^0.7.0",
+    "webpack": "^1.11.0"
   },
   "devDependencies": {
-    "rump-scripts-test": "^0.6.0",
-    "rump-server": "^0.6.0"
+    "mocha": "^2.2.5",
+    "rump-scripts-test": "^0.7.0",
+    "rump-server-dev": "^0.7.0"
   },
   "scripts": {
     "start": "npm run server",
@@ -21,6 +26,7 @@
     "build": "gulp build",
     "build:prod": "gulp build:prod",
     "server": "gulp server",
+    "server:dev": "gulp server:dev",
     "server:prod": "gulp server:prod",
     "info": "gulp info",
     "info:prod": "gulp info:prod"

@@ -1,19 +1,21 @@
 {
   "private": true,
   "dependencies": {
-    "domready": "^1.0.7",
-    "normalize-compass": "^3.0.1",
     "coffee-loader": "^0.7.2",
-    "coffee-script": "^1.8.0",
-    "gulp": "^3.8.8",
-    "rump": "^0.6.0",
-    "rump-sass": "^0.6.0",
-    "rump-scripts": "^0.6.0",
-    "rump-static": "^0.6.0"
+    "coffee-script": "^1.9.3",
+    "domready": "^1.0.8",
+    "normalize-compass": "^3.0.1",
+    "gulp": "^3.9.0",
+    "rump": "^0.7.0",
+    "rump-scripts": "^0.7.0",
+    "rump-server": "^0.7.0",
+    "rump-static": "^0.7.0",
+    "rump-styles": "^0.7.0"
   },
   "devDependencies": {
-    "rump-scripts-test": "^0.6.0",
-    "rump-server": "^0.6.0"
+    "mocha": "^2.2.5",
+    "rump-scripts-test": "^0.7.0",
+    "rump-server-dev": "^0.7.0"
   },
   "scripts": {
     "start": "npm run server",
@@ -22,6 +24,7 @@
     "build": "gulp build",
     "build:prod": "gulp build:prod",
     "server": "gulp server",
+    "server:dev": "gulp server:dev",
     "server:prod": "gulp server:prod",
     "info": "gulp info",
     "info:prod": "gulp info:prod"

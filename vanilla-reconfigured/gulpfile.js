@@ -1,5 +1,3 @@
-'use strict';
-
 require('rump').autoload().addGulpTasks({prefix: 'rump'}).configure({
   globs: {
     build: {
